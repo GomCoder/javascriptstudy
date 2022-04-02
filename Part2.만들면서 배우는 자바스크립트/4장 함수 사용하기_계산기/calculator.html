@@ -6,7 +6,8 @@
     <title>계산기</title>
 </head>
 <!-- 계산기 버튼 구현 -->
-<body>
+<body onresize="parent.resizeTo(300,200)" onload="parent.resizeTo(300,200)">
+    <center>
     <input readonly id="operator">
     <input readonly id="result" type="number">
     <div class="row">
@@ -34,6 +35,7 @@
         <button id="multiply">x</button>
     </div>
     <script src="./script.js"></script><!--Javascript 적용-->
+    </center>
 </body>
 
 </html>
